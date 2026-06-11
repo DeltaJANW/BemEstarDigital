@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-Estar Digital | Estudantes de TI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="./assets/logo-uni.webp" alt="Logo da UNI-RN">
+            <h1>Bem-Estar Digital</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre o Projeto</a></li>
+                    <li><a href="#metodologia">Metodologia</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#conclusao">Conclusão</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-Estar Digital: Estratégias para Estudantes de TI</h2>
+                <p class="subtitle">Um projeto de extensão voltado para o equilíbrio entre tecnologia, saúde mental e qualidade de vida no ambiente acadêmico.</p>
+                <div class="hero-text">
+                    <p>A tecnologia é a nossa principal ferramenta de estudo e trabalho, mas qual é o limite entre o uso produtivo e a sobrecarga mental? Este site apresenta os resultados de uma intervenção prática realizada com estudantes universitários, focada em reduzir o tempo de tela e combater o esgotamento digital.</p>
+                </div>
+                <a href="#sobre" class="btn">Explorar Projeto</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="content-section light-bg">
+            <div class="container">
+                <h2>O Contexto da Nossa Pesquisa</h2>
+                   <p>A qualidade de vida envolve dimensões físicas, psicológicas, sociais e ambientais sendo diretamente influenciada pelos hábitos diários e contexto no qual o indivíduo está inserido. No contexto acadêmico, estudantes de diversos cursos da área de Tecnologia da Informação (TI) são diariamente afetados por problemas como sedentarismo, estresse mental e sono irregular que podem comprometer o bem-estar físico e mental.
+                    </p>
+                <p>Nosso objetivo central foi investigar e divulgar como os membros da nossa comunidade acadêmica avaliam os aspectos que influenciam sua qualidade de vida, com um olhar especial para o impacto do uso de dispositivos móveis.</p>
+                
+                <p>O projeto adotou uma abordagem multidisciplinar, integrando conhecimentos práticos das seguintes disciplinas:</p>
+                <ul class="disciplinas-list">
+                    <li><strong>Programação para Internet:</strong> Concepção, estruturação e desenvolvimento deste site informativo como meio de documentação pública dos resultados.</li>
+                    <li><strong>Qualidade de Vida, Saúde e Meio Ambiente:</strong> Discussão sobre os principais fatores que compõem a qualidade de vida, como saúde, sono e estresse.</li>
+                    <li><strong>Arquitetura e Organização de Computadores:</strong> Boas práticas de desenvolvimento, com otimização da infraestrutura do sistema.</li>
+                    <li><strong>Estatística:</strong> Coleta e análise de dados (via formulários), com representação gráfica.</li>
+                </ul>
+                
+                <div class="equipe-grid">
+                    <div class="equipe-box">
+                        <h3>Desenvolvedores</h3>
+                        <p>Arthur Pereira Johnson dos Anjos</p>
+                        <p>Caue Jose do Nascimento Silva</p>
+                        <p>Luigi Salvatore de Gregorio</p>
+                        <p>Raul Nicolas de Souza Brito</p>
+                        <p>Sávio Rafael Marques de Alcântara</p>
+                    </div>
+                    <div class="equipe-box">
+                        <h3>Corpo Docente Orientador</h3>
+                        <p>Profª. Cristiane Clébia Barbosa de Medeiros</p>
+                        <p>Profª. Everlane Ferreira Moura</p>
+                        <p>Prof. Elizeu Maniçoba da Silva Filho</p>
+                        <p>Prof. José Lucas de Paiva Victor</p>
+                        <p>Prof. Wendell de Oliveira Araújo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodologia" class="content-section">
+            <div class="container">
+                <h2>O Desafio de Desconexão (Estudo Piloto)</h2>
+                <p>Como forma de entender o impacto do uso indevido de telas no cotidiano acadêmico, foram aplicados 2 questionários aos estudantes do primeiro, segundo e terceiro período do Bacharelado de Sistemas de Informação (UNI-RN).</p>
+                <p>Na criação dos formulários, foram adaptadas questões inspiradas no instrumento de diagnóstico WHOQOL-BREF, no formato de Escala Likert (com numerações de 1 a 5), focando em questões de assuntos como sedentarismo, uso excessivo de telas (computadores e celulares), vício em redes sociais, <i>doomscrolling</i> e distúrbios de sono com o objetivo de identificar seus hábitos diários e principais desafios relacionados à qualidade de vida.</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="step-number">1</span>
+                        <h3>Diagnóstico Inicial (Formulário 1)</h3>
+                        <p>Aplicação de um questionário inicial para identificar o perfil de uso atual. Foram coletadas informações sobre a percepção geral da qualidade de vida, níveis de estresse, sintomas físicos (como vista cansada ou mente acelerada), produtividade acadêmica e a média diária de tempo de tela.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <span class="step-number">2</span>
+                        <h3>A Intervenção Prática</h3>
+                        <p>Ao longo de uma semana, os estudantes foram orientados a utilizar ferramentas nativas de bloqueio ou aplicativos de controle de tempo (como Opal). A meta recomendada foi estabelecer um limite diário (de 30 minutos a 1 hora) para redes sociais e aplicativos de entretenimento.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <span class="step-number">3</span>
+                        <h3>Reavaliação Final (Formulário 2)</h3>
+                        <p>Após o término dos sete dias de restrição contínua, os voluntários responderam a um segundo formulário focado no monitoramento e coleta de feedbacks pós-intervenção. O objetivo foi reavaliar os mesmos indicadores de saúde e produtividade para comparar os estados antes e após a intervenção.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resultados" class="content-section light-bg">
+            <div class="container">
+                <h2>Mapeamento de Dados: Resultados do Estudo Piloto</h2>
+                
+                <div class="warning-box">
+                    <h3>Nota de Rigor Científico e Amostragem</h3>
+                    <p>A pesquisa foi divulgada a três turmas do Bacharelado em Sistemas de Informação do Centro Universitário do Rio Grande do Norte (aprox. 60 a 90 alunos). Tivemos <strong>4 respostas no diagnóstico inicial</strong> e <strong>3 respostas na reavaliação final</strong>. Devido ao baixo número de amostras, os dados a seguir possuem viés de seleção extremo, o que inviabiliza possíveis inferências estatísticas e torna este trabalho em uma pesquisa <strong>qualitativa exploratória</strong>. Adicionalmente, a baixa adesão sugere uma possível dificuldade de engajamento dos estudantes com a redução do tempo de tela.</p>
+                </div>
+
+                <div class="charts-container">
+                    <div class="chart-wrapper">
+                        <h3>Qualidade de Vida, Sono e Estresse</h3>
+                        <canvas id="chartSaude"></canvas>
+                        <p class="chart-caption">Média das respostas (escala 1 a 5). Nota-se que o estresse e a qualidade do sono se mantiveram instáveis, indicando possível ansiedade pela desconexão.</p>
+                    </div>
+
+                    <div class="chart-wrapper">
+                        <h3>Produtividade e Foco</h3>
+                        <canvas id="chartProdutividade"></canvas>
+                        <p class="chart-caption">Média das respostas. A perda de foco e a procrastinação aumentaram levemente, pela qual, a maior causa relatada pelos alunos se deu devido ao "tédio".</p>
+                    </div>
+                </div>
+
+                <div class="estudo-caso-grid">
+                    <div class="caso-card">
+                        <h3>Principais Barreiras Relatadas</h3>
+                        <p>Ao cruzar os dados qualitativos do Formulário 2, identificamos os maiores obstáculos para a redução do tempo de tela:</p>
+                        <ul>
+                            <li><strong>Hábito:</strong> "Prática de abrir aplicativos automaticamente".</li>
+                            <li><strong>Fator Psicológico:</strong> "Tédio ou falta de outras atividades".</li>
+                            <li><strong>Necessidade Acadêmica:</strong> "Estudos/trabalhos realizados no próprio celular".</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusao" class="content-section">
+            <div class="container">
+                <h2>Reflexões e Próximos Passos</h2>
+                <p>A execução deste projeto de extensão gerou aprendizados que vão além da simples interpretação de gráficos. A análise crítica do processo permitiu identificar dois aspectos importantes para a compreensão do uso excessivo de <i>smartphones</i> entre estudantes de TI:</p>
+                
+                <div class="conclusao-blocks">
+                    <div class="c-block">
+                        <h4>1. O Desafio do Engajamento</h4>
+                        <p>A baixa taxa de participação (apenas 3 participantes concluindo todas as etapas) representa um dos principais desafios deste projeto. Embora não seja possível confirmar relações causais, os resultados sugerem dificuldades em engajar os estudantes com intervenções que propõem restrições do tempo de tela. Considerando a rotina diária dos estudantes de TI, é plausível que hábitos como <i>doomscrolling</i> e a hiperconectividade dificultem a adesão inicial aos hábitos propostos. Entretanto, não se deve descartar a possibilidade de outros fatores externos desconhecidos terem influenciado o número total de participantes.</p>
+                    </div>
+                    
+                    <div class="c-block">
+                        <h4>2. Desafios da Restrição Intencional</h4>
+                        <p>A análise dos relatos dos participantes que concluíram todas as etapas não confirmou a hipótese inicial de que a utilização de bloqueadores geraria melhoras imediatas no bem-estar. Os depoimentos evidenciaram dificuldades de adaptação durante o período de intervenção, com relatos de tédio e de tentativas automáticas de acessar os aplicativos bloqueados. Isto sugere que a restrição do acesso aos aplicativos por si só pode não ser o suficiente para promover mudanças positivas significativas a curto prazo, visto que a interrupção de um hábito pode gerar desconforto inicial devido à dependência associada ao uso frequente dos <i>smartphones</i>.</p>
+                    </div>
+                </div>
+
+                <div class="recomendacoes-box">
+                    <h3>Diretrizes Práticas para a Comunidade Acadêmica</h3>
+                    <p>Embora este estudo apresente limitações devido ao baixo número de participantes, a análise cientifica sobre qualidade de vida valida a necessidade de medidas preventivas no ecossistema de TI. Recomendamos as seguintes ações:</p>
+                    <ol>
+                        <li><strong>Supervisão do Uso Ativo:</strong> Utilize das ferramentas de bem-estar digital do seu <i>smartphone</i> para ter consciência de quantas horas realmente são perdidas semanalmente em redes socias.</li>
+                        <li><strong>Temporizador:</strong> Estabeleça limites automaticos de tempo para os aplicativos que geram maior gatilho de distração ou procrastinação.</li>
+                        <li><strong>Substituição de Atividades:</strong> Procure substituir o tempo de tela por atividades físicas, sociais ou criativas que promovam o bem-estar.</li>
+                        <li><strong>Preservação do Sono:</strong> Interrompa a exposição a telas de <i>smartphones</i> ou computadores pelo menos uma hora antes de dormir para diminuir distúrbios de sono e a fadiga acumulada. Caso seja necessário usar aparelhos em períodos noturnos, utilize de filtros de luz azul como forma de reduzir o estímulo visual e melhorar o sono.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Projeto Bem-Estar Digital. Curso de Bacharelado em Sistemas de Informação - Centro Universitário Do Rio Grande do Norte.</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
